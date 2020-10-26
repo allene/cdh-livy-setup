@@ -1,9 +1,7 @@
 # Installing & setting up Apache Livy on CDH 6.3 cluster
 Original code was copied from https://github.com/GoogleCloudDataproc/initialization-actions/tree/master/livy
 
-This `livy_setup.sh` script
-installs [Apache Livy](https://livy.incubator.apache.org/) on a node
-within a CDH 6.3 cluster.
+Use `livy_setup.sh` script to install [Apache Livy](https://livy.incubator.apache.org/) on a node within a **CDH 6.3** cluster.
 
 
 1.  To change installed Livy version, export `LIVY_VERSION` environment variable:
